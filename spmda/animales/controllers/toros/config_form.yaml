@@ -1,0 +1,11 @@
+name: Toros
+modelClass: Spmda\Animales\Models\Toro
+form: $/spmda/animales/models/toro/fields.yaml
+defaultRedirect: spmda/animales/toros
+create:
+    redirect: 'spmda/animales/toros/update/:id'
+    redirectClose: spmda/animales/toros
+update:
+    redirect: spmda/animales/toros
+    redirectClose: spmda/animales/toros
+preview: {  }

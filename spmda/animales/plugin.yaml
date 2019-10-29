@@ -1,0 +1,11 @@
+plugin:
+    name: Animales
+    description: 'Menu para editar y ver los animales tanto toros como hembras'
+    author: SPMDA
+    icon: oc-icon-transgender
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Toros
+        url: spmda/animales/toros
+        icon: icon-mars

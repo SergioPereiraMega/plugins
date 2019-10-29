@@ -1,0 +1,93 @@
+columns:
+    nombre:
+        label: Nombre
+        type: text
+        searchable: true
+        sortable: true
+    hbu:
+        label: H.B.U.
+        type: text
+        searchable: true
+        sortable: true
+    rp:
+        label: RP
+        type: text
+        searchable: true
+        sortable: true
+    caravana:
+        label: Caravana
+        type: number
+        searchable: true
+        sortable: true
+    pigmentoizquierdo:
+        label: PigmIzq
+        type: text
+    pigmentoderecho:
+        label: PigmDer
+        type: text
+    padre:
+        label: Padre
+        type: text
+        searchable: true
+        sortable: true
+    abuelom:
+        label: AbueloM
+        type: text
+        searchable: true
+        sortable: true
+    hijos:
+        label: Hijos
+        type: text
+        searchable: true
+        sortable: true
+    pavg:
+        label: Pavg
+        type: text
+    g_epd:
+        label: g_epd
+        type: text
+    fpdir:
+        label: fpdir
+        type: text
+    nacido:
+        label: nacido
+        type: date
+        format: d-m-Y
+        searchable: true
+        sortable: true
+    destete:
+        label: destete
+        type: text
+    meses15:
+        label: 15meses
+        type: text
+    meses18:
+        label: 18meses
+        type: text
+    pa_v:
+        label: pa_v
+        type: text
+    fpmat:
+        label: fpmat
+        type: text
+    leche:
+        label: leche
+        type: text
+    aobc:
+        label: aobc
+        type: text
+    grasac:
+        label: grasac
+        type: text
+    ce:
+        label: ce
+        type: text
+    efc:
+        label: efc
+        type: text
+    indicecria:
+        label: IC
+        type: text
+    indicecompleto:
+        label: ICompleto
+        type: text

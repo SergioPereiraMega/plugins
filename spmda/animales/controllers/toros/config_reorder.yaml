@@ -1,0 +1,4 @@
+title: Toros
+modelClass: Spmda\Animales\Models\Toro
+toolbar:
+    buttons: reorder_toolbar

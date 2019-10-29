@@ -1,0 +1,12 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - builder_table_create_spmda_animales_toro.php
+1.0.3:
+    - builder_table_create_spmda_animales_toro.php
+1.0.4:
+    - 'Drop table spmda_animales_torodos'
+    - builder_table_delete_spmda_animales_torodos.php
+1.0.5:
+    - 'Updated table spmda_animales_toro'
+    - builder_table_update_spmda_animales_toro.php

@@ -1,0 +1,107 @@
+fields:
+    nombre:
+        label: Nombre
+        span: auto
+        type: text
+    hbu:
+        label: H.B.U
+        span: auto
+        type: text
+    rp:
+        label: RP
+        span: auto
+        type: text
+    caravana:
+        label: Caravana
+        span: auto
+        type: number
+    pigmentoizquierdo:
+        label: PigIzq
+        span: auto
+        type: text
+    pigmentoderecho:
+        label: PigDer
+        span: auto
+        type: text
+    padre:
+        label: Padre
+        span: auto
+        type: text
+    abuelom:
+        label: AbueloM
+        span: auto
+        type: text
+    hijos:
+        label: Hijos
+        span: auto
+        type: text
+    pavg:
+        label: Pavg
+        span: auto
+        type: text
+    g_epd:
+        label: g_epd
+        span: auto
+        type: text
+    fpdir:
+        label: fpdir
+        span: auto
+        type: text
+    nacido:
+        label: Nacido
+        span: auto
+        mode: date
+        format: d-m-Y
+        type: datepicker
+    destete:
+        label: destete
+        span: auto
+        type: text
+    meses15:
+        label: 15meses
+        span: auto
+        type: text
+    meses18:
+        label: 18meses
+        span: auto
+        type: text
+    pa_v:
+        label: pa_v
+        span: auto
+        type: text
+    fpmat:
+        label: fpmat
+        span: auto
+        type: text
+    leche:
+        label: leche
+        span: auto
+        type: text
+    aobc:
+        label: aobc
+        span: auto
+        type: text
+    grasac:
+        label: grasac
+        span: auto
+        type: text
+    ce:
+        label: ce
+        span: auto
+        type: text
+    efc:
+        label: efc
+        span: auto
+        type: text
+    indicecria:
+        label: IC
+        span: auto
+        type: text
+    indicecompleto:
+        label: ICompleto
+        span: auto
+        type: text
+    destacado:
+        label: 'Toro Destacado'
+        span: auto
+        type: checkbox
