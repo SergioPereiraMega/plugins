@@ -26,4 +26,15 @@ class Toro extends Model
      */
     public $rules = [
     ];
+
+    /* Relations */
+
+    public $attachOne = [
+        'vistasderecha' => 'System\Models\File'
+    ];
+
+    public $attachMany = [
+        'vistas' => 'System\Models\File'
+    ];
+
 }

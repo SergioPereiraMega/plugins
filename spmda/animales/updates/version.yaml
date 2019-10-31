@@ -10,3 +10,6 @@
 1.0.5:
     - 'Updated table spmda_animales_toro'
     - builder_table_update_spmda_animales_toro.php
+1.0.6:
+    - 'Updated table spmda_animales_toro'
+    - builder_table_update_spmda_animales_toro_2.php

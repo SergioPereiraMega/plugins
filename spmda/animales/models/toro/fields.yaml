@@ -5,7 +5,7 @@ fields:
         type: text
     hbu:
         label: H.B.U
-        span: auto
+        span: left
         type: text
     rp:
         label: RP
@@ -105,3 +105,22 @@ fields:
         label: 'Toro Destacado'
         span: auto
         type: checkbox
+    slug:
+        label: Slug
+        span: auto
+        preset:
+            field: hbu
+            type: slug
+        type: text
+    vistas:
+        label: Vistas
+        mode: image
+        imageWidth: '150'
+        imageHeight: '120'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: left
+        type: fileupload
+        comment: 'fotos de toro'
