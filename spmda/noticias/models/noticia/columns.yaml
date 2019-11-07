@@ -1,0 +1,23 @@
+columns:
+    publish:
+        label: Publicar
+        type: switch
+        searchable: true
+        sortable: true
+    title:
+        label: Titulo
+        type: text
+        searchable: true
+        sortable: true
+    subtitle:
+        label: Subtitulo
+        type: text
+        searchable: true
+    order:
+        label: Orden
+        type: number
+        searchable: true
+        sortable: true
+    description:
+        label: Descripcion
+        type: text

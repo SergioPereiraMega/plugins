@@ -1,0 +1,4 @@
+title: Noticias
+modelClass: Spmda\Noticias\Models\Noticia
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,10 @@
+name: Noticias
+modelClass: Spmda\Noticias\Models\Noticia
+form: $/spmda/noticias/models/noticia/fields.yaml
+defaultRedirect: spmda/noticias/noticias
+create:
+    redirect: 'spmda/noticias/noticias/update/:id'
+    redirectClose: spmda/noticias/noticias
+update:
+    redirect: spmda/noticias/noticias
+    redirectClose: spmda/noticias/noticias

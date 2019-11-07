@@ -1,0 +1,11 @@
+plugin:
+    name: Noticias
+    description: 'spmda.noticias::lang.plugin.description'
+    author: SPMDA
+    icon: oc-icon-newspaper-o
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Noticias
+        url: spmda/noticias/noticias
+        icon: icon-newspaper-o

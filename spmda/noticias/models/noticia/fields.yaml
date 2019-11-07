@@ -1,0 +1,35 @@
+fields:
+    subtitle:
+        label: Subtitulo
+        span: auto
+        type: text
+    title:
+        label: Titulo
+        span: full
+        type: text
+        commentAbove: 'Ingrese el titulo de la Noticia'
+    description:
+        label: 'Descripcion de Noticia'
+        size: giant
+        span: auto
+        type: richeditor
+    order:
+        label: 'Orden publicacion'
+        span: auto
+        type: number
+    fotonoticias:
+        label: 'Fotos Noticias'
+        mode: image
+        imageWidth: '200'
+        imageHeight: '200'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    publish:
+        label: Publicar
+        span: auto
+        default: 1
+        type: checkbox

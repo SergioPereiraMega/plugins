@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table spmda_noticias_'
+    - builder_table_create_spmda_noticias_.php
+1.0.3:
+    - 'Updated table spmda_noticias_'
+    - builder_table_update_spmda_noticias_.php
+1.0.4:
+    - 'Updated table spmda_noticias_'
+    - builder_table_update_spmda_noticias__2.php
+1.0.5:
+    - 'Updated table spmda_noticias_'
+    - builder_table_update_spmda_noticias__3.php
