@@ -4,6 +4,7 @@ list: $/spmda/animales/models/toro/columns.yaml
 recordUrl: 'spmda/animales/toros/update/:id'
 noRecordsMessage: 'backend::lang.list.no_records'
 recordsPerPage: 20
+filter: config_filter.yaml
 showSetup: true
 showCheckboxes: true
 toolbar:

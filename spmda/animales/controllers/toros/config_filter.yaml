@@ -1,0 +1,5 @@
+scopes:
+  destacado:
+    label: Filtro destacados
+    type: checkbox
+    conditions: destacado = true 

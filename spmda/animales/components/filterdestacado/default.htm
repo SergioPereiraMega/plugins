@@ -1,0 +1,79 @@
+{% set toros = filterdestacado.toros %}
+
+
+
+
+
+
+
+
+
+
+
+<div class="team">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="row">
+
+                {% for toro in toros %}
+
+
+                <div class="col-md-4">
+                    <div class="card card-member">
+                        <div class="content">
+                            <div>
+                                <a href="">
+                                    <img alt="destacado1" class="card-image-top"
+                                        src="{{'assets/img/toro.jpg'|theme}}" />
+                                    <div class="description">
+                                        <h3 class="title">{{ toro.hbu }}</h3>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+
+                <!-- 
+                <div class="col-md-4">
+                    <div class="card card-member">
+                        <div class="content">
+                            <div>
+                                <a href="">
+                                    <img alt="destacado2" class="card-image-top"
+                                        src="{{'assets/img/cria 1.jpg'|theme}}" />
+                            </div>
+                            <div class="description">
+                                <h3 class="title">Torito</h3>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-member">
+                        <div class="content">
+                            <div>
+                                <a href="">
+                                    <img alt="..." class="card-image-top"
+                                        src="{{'assets/img/ganado ciale.jpg'|theme}}" />
+                            </div>
+                            <div class="description">
+                                <h3 class="title">Torazo</h3>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+ -->
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
