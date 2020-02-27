@@ -30,7 +30,7 @@ class Toro extends Model
     /* Relations */
 
     public $attachOne = [
-        'vistasderecha' => 'System\Models\File'
+        'vistadestacado' => 'System\Models\File'
     ];
 
     public $attachMany = [

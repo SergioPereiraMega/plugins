@@ -124,3 +124,15 @@ fields:
         span: left
         type: fileupload
         comment: 'fotos de toro'
+    vistadestacado:
+        label: 'Foto destacado'
+        mode: image
+        imageWidth: '150'
+        imageHeight: '120'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+        comment: 'Ingrese la foto a mostrar cuando sea destacado'
